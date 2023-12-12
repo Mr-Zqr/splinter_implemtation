@@ -8,7 +8,7 @@ project (sample_project)
 
 
 # Add an executable
-add_executable(sample_project main.cpp)
+add_executable(sample_project test.cpp)
 
 # Include directories
 include_directories(${PROJECT_SOURCE_DIR}/include)

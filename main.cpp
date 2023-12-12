@@ -55,6 +55,9 @@ int main(int argc, char *argv[])
      * Note that the error will be 0 at that point (except for the P-spline, which may introduce an error
      * in favor of a smooth approximation) because it is a point we sampled at.
      */
+
+    
+
     x(0) = 1; x(1) = 1;
     cout << "-----------------------------------------------------" << endl;
     cout << "Function at x:                 " << f(x)               << endl;
